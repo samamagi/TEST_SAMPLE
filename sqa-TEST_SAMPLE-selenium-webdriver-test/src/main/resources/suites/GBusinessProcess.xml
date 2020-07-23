@@ -1,0 +1,49 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="20170801-120912-POLARION">
+	<parameter name="report"
+		value="src/main/resources/doc/report_generic.xls" />
+	<listeners>
+		<listener class-name="aria.testframework.util.Listener" />
+	</listeners>
+	<!-- <test name="firefox1">
+		<parameter name="browser" value="firefox" />
+		<parameter name="iterations" value="1-3" />
+		<parameter name="xlsdataprovider"
+			value="src/main/resources/doc/BP01_RicercaGoogle.xls" />
+		<parameter name="sequence" value="no" />
+		<parameter name="bpname" value="BP01_RicercaGoogle" />
+		<parameter name="filetemplate"
+			value="src/main/resources/properties/TEST_SAMPLE.properties" />
+		<classes>
+			<class name="aria.testframework.businessprocess.GBusinessProcess" />
+		</classes>
+	</test>
+	<test name="ie1">
+		<parameter name="browser" value="ie" />
+		<parameter name="iterations" value="1-3" />
+		<parameter name="xlsdataprovider"
+			value="src/main/resources/doc/BP01_RicercaGoogle.xls" />
+		<parameter name="sequence" value="no" />
+		<parameter name="bpname" value="BP01_RicercaGoogle" />
+		<parameter name="filetemplate"
+			value="src/main/resources/properties/template.properties" />
+
+		<classes>
+			<class name="aria.testframework.businessprocess.GBusinessProcess" />
+		</classes>
+	</test> -->
+	<test name="chrome1">
+		<parameter name="browser" value="chrome" />
+		<parameter name="iterations" value="1-3" />
+		<parameter name="xlsdataprovider"
+			value="src/main/resources/doc/BP01_RicercaGoogle.xls" />
+		<parameter name="sequence" value="no" />
+		<parameter name="bpname" value="BP01_RicercaGoogle" />
+		<parameter name="filetemplate"
+			value="src/main/resources/properties/TEST_SAMPLE.properties" />
+		<classes>
+			<class name="aria.testframework.businessprocess.GBusinessProcess" />
+		</classes>
+	</test>
+
+</suite>

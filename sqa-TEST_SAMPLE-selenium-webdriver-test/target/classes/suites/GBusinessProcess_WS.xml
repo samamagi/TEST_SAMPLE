@@ -1,0 +1,67 @@
+<!DOCTYPE suite SYSTEM "testng-1.0.dtd">
+<suite name="20170801-120912-POLARION-ws">
+	<parameter name="report"
+		value="src/main/resources/doc/report_generic.xls" />
+	<listeners>
+		<listener class-name="aria.testframework.util.Listener" />
+	</listeners>
+   	<test name="webservices1">
+		<parameter name="browser" value="webservices" />
+		<parameter name="iterations" value="1" />
+		<parameter name="xlsdataprovider"
+			value="src/main/resources/doc/BP04_WebService.xls" />
+		<parameter name="sequence" value="no" />
+		<parameter name="group" value="prova" />
+		<parameter name="bpname" value="BP04_WebService" />
+		<parameter name="filetemplate"
+			value="src/main/resources/properties/template.properties" />
+
+		<classes>
+			<class name="aria.testframework.businessprocess.GBusinessProcess" />
+		</classes>
+	</test>
+	<!-- <test name="chrome2">
+		<parameter name="browser" value="chrome" />
+		<parameter name="iterations" value="1-3" />
+		<parameter name="xlsdataprovider"
+			value="src/main/resources/doc/BP01_RicercaGoogle.xls" />
+		<parameter name="sequence" value="yes;continue" />
+		<parameter name="bpname" value="BP01_RicercaGoogle" />
+		<parameter name="filetemplate"
+			value="src/main/resources/properties/template.properties" />
+
+		<classes>
+			<class name="aria.testframework.businessprocess.GBusinessProcess" />
+		</classes>
+	</test>
+  	<test name="chrome3">
+		<parameter name="browser" value="chrome" />
+		<parameter name="iterations" value="1-3" />
+		<parameter name="xlsdataprovider"
+			value="src/main/resources/doc/BP01_RicercaGoogle.xls" />
+		<parameter name="sequence" value="yes" />
+		<parameter name="group" value="prova" />
+		<parameter name="bpname" value="BP01_RicercaGoogle" />
+		<parameter name="filetemplate"
+			value="src/main/resources/properties/template.properties" />
+
+		<classes>
+			<class name="aria.testframework.businessprocess.GBusinessProcess" />
+		</classes>
+	</test>
+ 	<test name="chrome4">
+		<parameter name="browser" value="chrome" />
+		<parameter name="iterations" value="1-3" />
+		<parameter name="xlsdataprovider"
+			value="src/main/resources/doc/BP01_RicercaGoogle.xls" />
+		<parameter name="sequence" value="no" />
+		<parameter name="group" value="prova" />
+		<parameter name="bpname" value="BP01_RicercaGoogle" />
+		<parameter name="filetemplate"
+			value="src/main/resources/properties/template.properties" />
+
+		<classes>
+			<class name="aria.testframework.businessprocess.GBusinessProcess" />
+		</classes>
+	</test> -->
+</suite>

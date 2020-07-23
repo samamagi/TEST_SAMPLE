@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="20170801-120912-POLARION">
+	<parameter name="report"
+		value="src/main/resources/doc/report_generic.xls" />
+	<listeners>
+		<listener class-name="aria.testframework.util.Listener" />
+	</listeners>
+	<test name="chrome1">
+		<parameter name="browser" value="chrome" />
+		<parameter name="iterations" value="1-2" />
+		<parameter name="xlsdataprovider"
+			value="src/main/resources/doc/BP02_RicercaWikipedia.xls" />
+		<parameter name="sequence" value="no" />
+		<parameter name="bpname" value="BP02_RicercaWikipedia" />
+		<parameter name="filetemplate"
+			value="src/main/resources/properties/TEMPLATE.properties" />
+
+		<classes>
+			<class name="aria.testframework.businessprocess.GBusinessProcess" />
+		</classes>
+	</test>
+
+</suite>
