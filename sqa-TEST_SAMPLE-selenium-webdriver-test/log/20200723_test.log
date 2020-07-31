@@ -1,0 +1,203 @@
+2020-07-23 14:41:52.427 INFO  - ******************************************************************************************
+2020-07-23 14:41:52.433 INFO  - ******************************************************************************************
+2020-07-23 14:41:53.229 INFO  - Sono state lette: 3 righe
+2020-07-23 14:41:53.235 INFO  - File: /home/gisparan/Documenti/ARIASPA/TEST-AUTOMATICI/TSEL/TEST_SAMPLE/sqa-TEST_SAMPLE-selenium-webdriver-test/src/main/resources/doc/report_generic.xls exists, file length: 17408
+2020-07-23 14:41:53.401 INFO  - ***Apertura Browser
+2020-07-23 14:41:53.401 INFO  - Apertura driver browser: chrome
+2020-07-23 14:41:53.410 INFO  - Desired Capabilities: chrome
+2020-07-23 14:52:33.338 INFO  - ******************************************************************************************
+2020-07-23 14:52:33.348 INFO  - ******************************************************************************************
+2020-07-23 14:52:33.864 INFO  - Sono state lette: 3 righe
+2020-07-23 14:52:33.871 INFO  - File: /home/gisparan/Documenti/ARIASPA/TEST-AUTOMATICI/TSEL/TEST_SAMPLE/sqa-TEST_SAMPLE-selenium-webdriver-test/src/main/resources/doc/report_generic.xls exists, file length: 17408
+2020-07-23 14:52:34.007 INFO  - ***Apertura Browser
+2020-07-23 14:52:34.007 INFO  - Apertura driver browser: chrome
+2020-07-23 14:52:34.015 INFO  - Desired Capabilities: chrome
+2020-07-23 14:56:00.661 INFO  - ******************************************************************************************
+2020-07-23 14:56:00.671 INFO  - ******************************************************************************************
+2020-07-23 14:56:01.201 INFO  - Sono state lette: 3 righe
+2020-07-23 14:56:01.206 INFO  - File: /home/gisparan/Documenti/ARIASPA/TEST-AUTOMATICI/TSEL/TEST_SAMPLE/sqa-TEST_SAMPLE-selenium-webdriver-test/src/main/resources/doc/report_generic.xls exists, file length: 17408
+2020-07-23 14:56:01.330 INFO  - ***Apertura Browser
+2020-07-23 14:56:01.330 INFO  - Apertura driver browser: chrome
+2020-07-23 14:56:01.338 INFO  - Desired Capabilities: chrome
+2020-07-23 15:02:05.416 INFO  - ******************************************************************************************
+2020-07-23 15:02:05.423 INFO  - ******************************************************************************************
+2020-07-23 15:02:05.892 INFO  - Sono state lette: 3 righe
+2020-07-23 15:02:05.896 INFO  - File: /home/gisparan/Documenti/ARIASPA/TEST-AUTOMATICI/TSEL/TEST_SAMPLE/sqa-TEST_SAMPLE-selenium-webdriver-test/src/main/resources/doc/report_generic.xls exists, file length: 17408
+2020-07-23 15:02:06.019 INFO  - ***Apertura Browser
+2020-07-23 15:02:06.020 INFO  - Apertura driver browser: chrome
+2020-07-23 15:02:06.027 INFO  - Desired Capabilities: chrome
+2020-07-23 15:02:07.958 INFO  - session Id=687b88180f0505e5f6c77e689f1005e3
+2020-07-23 15:02:07.959 INFO  - session Id=http://localhost:18841
+2020-07-23 15:02:08.089 INFO  - ***BP Name: BP01_RicercaGoogle
+2020-07-23 15:02:08.089 INFO  - ***Parametri in input:
+2020-07-23 15:02:08.089 INFO  - 	Iteration = 1
+2020-07-23 15:02:08.090 INFO  - 	Note = Ricerca google parola Italia
+2020-07-23 15:02:08.093 INFO  - 	IDPolarion = null
+2020-07-23 15:02:08.093 INFO  - 	ricerca.cerca = Italia
+2020-07-23 15:02:08.094 INFO  - 	ricerca.pulsante = Cerca con Google
+2020-07-23 15:02:08.095 INFO  - 	esito.skip = null
+2020-07-23 15:02:08.096 INFO  - 	esito.chiavericerca = Italia - Wikipedia
+2020-07-23 15:02:08.098 INFO  - 	esito.testnegativo = null
+2020-07-23 15:02:08.099 INFO  - 	c03.skip = TRUE
+2020-07-23 15:02:08.100 INFO  - 	c03.sceltamenu = null
+2020-07-23 15:02:08.100 INFO  - 	Apertura URL: https://www.google.it/
+2020-07-23 15:02:09.755 INFO  - ***Execute ExecBP
+2020-07-23 15:02:09.756 INFO  - BP01_RicercaGoogle
+2020-07-23 15:02:09.757 INFO  - Avvio BP01_RicercaGoogle
+2020-07-23 15:02:09.767 INFO  - Sono state lette: 3 righe
+2020-07-23 15:02:09.767 INFO  - Component: test_sample.components.C01_RicercaGoogle
+2020-07-23 15:02:09.767 INFO  - Alias: ricerca
+2020-07-23 15:02:09.773 INFO  - avvio C01_RicercaGoogle
+2020-07-23 15:02:09.774 POLARION - Apertura pagina Ricerca Google
+2020-07-23 15:02:09.790 POLARION - La pagina Ricerca Google viene aperta con successo
+2020-07-23 15:02:09.790 INFO  - Func: temporizzatore = 1000
+2020-07-23 15:02:09.791 INFO  - 	waiting...
+2020-07-23 15:02:10.961 INFO  - Checkpoint: //input[@role='combobox'] trovato
+2020-07-23 15:02:10.961 INFO  - C01_RicercaGoogle > Ricerca Google
+2020-07-23 15:02:10.961 INFO  - safeInput: //input[@role='combobox']
+2020-07-23 15:02:10.981 INFO  - attr: Italia
+2020-07-23 15:02:11.032 INFO  - safeInput: //input[@role='combobox']
+2020-07-23 15:02:11.043 INFO  - attr: Italia
+2020-07-23 15:02:11.282 INFO  - Func: temporizzatore = 500
+2020-07-23 15:02:11.295 INFO  - 	waiting...
+2020-07-23 15:02:11.796 INFO  - Submit Element: //input[@role='combobox']
+2020-07-23 15:02:11.796 INFO  - Func: elementExist //input[@role='combobox']
+2020-07-23 15:02:13.942 INFO  - Component: test_sample.components.C02_EsitoRicerca
+2020-07-23 15:02:13.942 INFO  - Alias: esito
+2020-07-23 15:02:13.943 INFO  - avvio C02_EsitoRicerca
+2020-07-23 15:02:13.944 POLARION - Apertura pagina Esito Ricerca
+2020-07-23 15:02:13.948 POLARION - La pagina Esito Ricerca viene aperta con successo
+2020-07-23 15:02:13.948 INFO  - Func: temporizzatore = 1000
+2020-07-23 15:02:13.949 INFO  - 	waiting...
+2020-07-23 15:02:14.978 INFO  - Checkpoint: //div[@id='top_nav'] trovato
+2020-07-23 15:02:14.978 INFO  - C02_EsitoRicerca > Esito Ricerca
+2020-07-23 15:02:15.016 INFO  - Modalità di ricercaTuttiMapsImmaginiNotizieVideoAltroShoppingLibriVoliFinanzaImpostazioniImpostazioni di ricercaLingue (Languages)Attiva SafeSearchRicerca avanzataAttività di ricercaI tuoi dati nella RicercaCerca nella GuidaStrumentiQualsiasi PaeseQualsiasi PaesePaese: ItaliaQualsiasi linguaQualsiasi linguaPagine in italianoQualsiasi dataQualsiasi data Ultima ora Ultime 24 ore Ultima settimana Ultimo mese Ultimo annoIntervallo di dateIntervallo di date personalizzatoDaAVaiTutti i risultatiTutti i risultatiVerbatim
+2020-07-23 15:02:15.016 INFO  - 24
+2020-07-23 15:02:15.017 INFO  - safeInput: //h3[contains(.,'Italia - Wikipedia')]
+2020-07-23 15:02:15.061 INFO  - jsClick: //h3[contains(.,'Italia - Wikipedia')]
+2020-07-23 15:02:15.062 INFO  - executeJsActionOnElement: //h3[contains(.,'Italia - Wikipedia')] click()
+2020-07-23 15:02:19.688 INFO  - addUnloadData, key: risultati, value: 24
+2020-07-23 15:02:19.719 INFO  - Component: test_sample.components.C03_GestioneMenu
+2020-07-23 15:02:19.719 INFO  - Alias: c03
+2020-07-23 15:02:19.720 INFO  - Loaddata del componente: test_sample.components.C03_GestioneMenu con alias: c03 skippato
+2020-07-23 15:02:19.720 INFO  - Componente: test_sample.components.C03_GestioneMenu con alias: c03 skippato
+2020-07-23 15:02:19.720 INFO  - ***Fine Execute ExecBP
+2020-07-23 15:02:19.866 INFO  - Chiusura browser:
+2020-07-23 15:02:22.057 INFO  - Comando: killall -9 chromedriver
+2020-07-23 15:02:22.068 ERROR - Browser ancora in esecuzione
+2020-07-23 15:02:22.069 INFO  - File: /home/gisparan/Documenti/ARIASPA/TEST-AUTOMATICI/TSEL/TEST_SAMPLE/sqa-TEST_SAMPLE-selenium-webdriver-test/src/main/resources/doc/report_generic.xls exists, file length: 17408
+2020-07-23 15:02:22.070 INFO  - ***Apertura Browser
+2020-07-23 15:02:22.070 INFO  - Apertura driver browser: chrome
+2020-07-23 15:02:22.070 INFO  - Desired Capabilities: chrome
+2020-07-23 15:02:22.695 INFO  - session Id=036edd4536d32fe6c436d8fec2b6a180
+2020-07-23 15:02:22.696 INFO  - session Id=http://localhost:23049
+2020-07-23 15:02:23.098 INFO  - ***BP Name: BP01_RicercaGoogle
+2020-07-23 15:02:23.099 INFO  - ***Parametri in input:
+2020-07-23 15:02:23.099 INFO  - 	Iteration = 2
+2020-07-23 15:02:23.099 INFO  - 	Note = Ricerca goggle - test negativo
+2020-07-23 15:02:23.099 INFO  - 	IDPolarion = null
+2020-07-23 15:02:23.099 INFO  - 	ricerca.cerca = ccccccccccdccccccccccg0000fsfsdwrèewej
+2020-07-23 15:02:23.099 INFO  - 	ricerca.pulsante = Cerca con Google
+2020-07-23 15:02:23.099 INFO  - 	esito.skip = null
+2020-07-23 15:02:23.099 INFO  - 	esito.chiavericerca = null
+2020-07-23 15:02:23.099 INFO  - 	esito.testnegativo = si
+2020-07-23 15:02:23.099 INFO  - 	c03.skip = TRUE
+2020-07-23 15:02:23.100 INFO  - 	c03.sceltamenu = si
+2020-07-23 15:02:23.100 INFO  - 	Apertura URL: https://www.google.it/
+2020-07-23 15:02:24.492 INFO  - ***Execute ExecBP
+2020-07-23 15:02:24.492 INFO  - BP01_RicercaGoogle
+2020-07-23 15:02:24.492 INFO  - Avvio BP01_RicercaGoogle
+2020-07-23 15:02:24.509 INFO  - Sono state lette: 3 righe
+2020-07-23 15:02:24.509 INFO  - Component: test_sample.components.C01_RicercaGoogle
+2020-07-23 15:02:24.509 INFO  - Alias: ricerca
+2020-07-23 15:02:24.510 INFO  - avvio C01_RicercaGoogle
+2020-07-23 15:02:24.510 POLARION - Apertura pagina Ricerca Google
+2020-07-23 15:02:24.510 POLARION - La pagina Ricerca Google viene aperta con successo
+2020-07-23 15:02:24.510 INFO  - Func: temporizzatore = 1000
+2020-07-23 15:02:24.511 INFO  - 	waiting...
+2020-07-23 15:02:25.543 INFO  - Checkpoint: //input[@role='combobox'] trovato
+2020-07-23 15:02:25.543 INFO  - C01_RicercaGoogle > Ricerca Google
+2020-07-23 15:02:25.543 INFO  - safeInput: //input[@role='combobox']
+2020-07-23 15:02:25.565 INFO  - attr: ccccccccccdccccccccccg0000fsfsdwrèewej
+2020-07-23 15:02:25.589 INFO  - safeInput: //input[@role='combobox']
+2020-07-23 15:02:25.601 INFO  - attr: ccccccccccdccccccccccg0000fsfsdwrèewej
+2020-07-23 15:02:26.046 INFO  - Func: temporizzatore = 500
+2020-07-23 15:02:26.047 INFO  - 	waiting...
+2020-07-23 15:02:26.547 INFO  - Submit Element: //input[@role='combobox']
+2020-07-23 15:02:26.547 INFO  - Func: elementExist //input[@role='combobox']
+2020-07-23 15:02:27.846 INFO  - Component: test_sample.components.C02_EsitoRicerca
+2020-07-23 15:02:27.846 INFO  - Alias: esito
+2020-07-23 15:02:27.847 INFO  - avvio C02_EsitoRicerca
+2020-07-23 15:02:27.847 POLARION - Apertura pagina Esito Ricerca
+2020-07-23 15:02:27.847 POLARION - La pagina Esito Ricerca viene aperta con successo
+2020-07-23 15:02:27.848 INFO  - Func: temporizzatore = 1000
+2020-07-23 15:02:27.859 INFO  - 	waiting...
+2020-07-23 15:02:28.880 INFO  - Checkpoint: //div[@id='top_nav'] trovato
+2020-07-23 15:02:28.880 INFO  - C02_EsitoRicerca > Esito Ricerca
+2020-07-23 15:02:28.880 INFO  - Func: temporizzatore = 1000
+2020-07-23 15:02:28.880 INFO  - 	waiting...
+2020-07-23 15:02:29.905 INFO  - Checkpoint: //p[contains(.,'non ha prodotto risultati')] trovato
+2020-07-23 15:02:29.905 INFO  - 0
+2020-07-23 15:02:29.905 INFO  - addUnloadData, key: risultati, value: 0
+2020-07-23 15:02:29.911 INFO  - Component: test_sample.components.C03_GestioneMenu
+2020-07-23 15:02:29.911 INFO  - Alias: c03
+2020-07-23 15:02:29.911 INFO  - Loaddata del componente: test_sample.components.C03_GestioneMenu con alias: c03 skippato
+2020-07-23 15:02:29.912 INFO  - Componente: test_sample.components.C03_GestioneMenu con alias: c03 skippato
+2020-07-23 15:02:29.912 INFO  - ***Fine Execute ExecBP
+2020-07-23 15:02:29.935 INFO  - Chiusura browser:
+2020-07-23 15:02:32.082 INFO  - Comando: killall -9 chromedriver
+2020-07-23 15:02:32.083 ERROR - Browser ancora in esecuzione
+2020-07-23 15:02:32.084 INFO  - File: /home/gisparan/Documenti/ARIASPA/TEST-AUTOMATICI/TSEL/TEST_SAMPLE/sqa-TEST_SAMPLE-selenium-webdriver-test/src/main/resources/doc/report_generic.xls exists, file length: 17920
+2020-07-23 15:02:32.085 INFO  - ***Apertura Browser
+2020-07-23 15:02:32.085 INFO  - Apertura driver browser: chrome
+2020-07-23 15:02:32.085 INFO  - Desired Capabilities: chrome
+2020-07-23 15:02:32.740 INFO  - session Id=e0069a1f33de9340fc5aba46f7057c30
+2020-07-23 15:02:32.741 INFO  - session Id=http://localhost:10774
+2020-07-23 15:02:33.174 INFO  - ***BP Name: BP01_RicercaGoogle
+2020-07-23 15:02:33.175 INFO  - ***Parametri in input:
+2020-07-23 15:02:33.175 INFO  - 	Iteration = 3
+2020-07-23 15:02:33.175 INFO  - 	Note = Ricerca il numero uscito come risultato alla iter 1
+2020-07-23 15:02:33.175 INFO  - 	IDPolarion = null
+2020-07-23 15:02:33.176 INFO  - 	ricerca.cerca = [ITERATION]BP01_RicercaGoogle#1#esito.risultati
+2020-07-23 15:02:33.176 INFO  - 	ricerca.pulsante = Cerca con Google
+2020-07-23 15:02:33.176 INFO  - 	esito.skip = si
+2020-07-23 15:02:33.176 INFO  - 	esito.chiavericerca = null
+2020-07-23 15:02:33.176 INFO  - 	esito.testnegativo = null
+2020-07-23 15:02:33.176 INFO  - 	c03.skip = TRUE
+2020-07-23 15:02:33.176 INFO  - 	c03.sceltamenu = null
+2020-07-23 15:02:33.177 INFO  - 	Apertura URL: https://www.google.it/
+2020-07-23 15:02:34.451 INFO  - ***Execute ExecBP
+2020-07-23 15:02:34.451 INFO  - BP01_RicercaGoogle
+2020-07-23 15:02:34.452 INFO  - Avvio BP01_RicercaGoogle
+2020-07-23 15:02:34.467 INFO  - Sono state lette: 3 righe
+2020-07-23 15:02:34.467 INFO  - Component: test_sample.components.C01_RicercaGoogle
+2020-07-23 15:02:34.467 INFO  - Alias: ricerca
+2020-07-23 15:02:34.468 INFO  - TransferParameter: [ITERATION]BP01_RicercaGoogle#1#esito.risultati
+2020-07-23 15:02:34.472 INFO  - Value: 24
+2020-07-23 15:02:34.472 INFO  - avvio C01_RicercaGoogle
+2020-07-23 15:02:34.475 POLARION - Apertura pagina Ricerca Google
+2020-07-23 15:02:34.475 POLARION - La pagina Ricerca Google viene aperta con successo
+2020-07-23 15:02:34.476 INFO  - Func: temporizzatore = 1000
+2020-07-23 15:02:34.483 INFO  - 	waiting...
+2020-07-23 15:02:35.502 INFO  - Checkpoint: //input[@role='combobox'] trovato
+2020-07-23 15:02:35.502 INFO  - C01_RicercaGoogle > Ricerca Google
+2020-07-23 15:02:35.502 INFO  - safeInput: //input[@role='combobox']
+2020-07-23 15:02:35.523 INFO  - attr: 24
+2020-07-23 15:02:35.547 INFO  - safeInput: //input[@role='combobox']
+2020-07-23 15:02:35.582 INFO  - attr: 24
+2020-07-23 15:02:35.745 INFO  - Func: temporizzatore = 500
+2020-07-23 15:02:35.759 INFO  - 	waiting...
+2020-07-23 15:02:36.259 INFO  - Submit Element: //input[@role='combobox']
+2020-07-23 15:02:36.260 INFO  - Func: elementExist //input[@role='combobox']
+2020-07-23 15:02:38.729 INFO  - Component: test_sample.components.C02_EsitoRicerca
+2020-07-23 15:02:38.729 INFO  - Alias: esito
+2020-07-23 15:02:38.730 INFO  - Loaddata del componente: test_sample.components.C02_EsitoRicerca con alias: esito skippato
+2020-07-23 15:02:38.730 INFO  - Componente: test_sample.components.C02_EsitoRicerca con alias: esito skippato
+2020-07-23 15:02:38.734 INFO  - Component: test_sample.components.C03_GestioneMenu
+2020-07-23 15:02:38.734 INFO  - Alias: c03
+2020-07-23 15:02:38.734 INFO  - Loaddata del componente: test_sample.components.C03_GestioneMenu con alias: c03 skippato
+2020-07-23 15:02:38.735 INFO  - Componente: test_sample.components.C03_GestioneMenu con alias: c03 skippato
+2020-07-23 15:02:38.735 INFO  - ***Fine Execute ExecBP
+2020-07-23 15:02:38.752 INFO  - Chiusura browser:
+2020-07-23 15:02:40.878 INFO  - Comando: killall -9 chromedriver
+2020-07-23 15:02:40.879 ERROR - Browser ancora in esecuzione

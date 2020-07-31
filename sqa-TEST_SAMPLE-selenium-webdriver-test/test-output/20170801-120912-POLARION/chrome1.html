@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>chrome1</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/0/3</td>
+<td>Tests passed/Failed/Skipped:</td><td>3/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Fri May 29 16:02:05 CEST 2020</td>
+<td>Started on:</td><td>Thu Jul 23 15:02:04 CEST 2020</td>
 </tr>
-<tr><td>Total time:</td><td>4 seconds (4267 ms)</td>
+<tr><td>Total time:</td><td>36 seconds (36080 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,684 +67,203 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='aria.testframework.businessprocess.GBusinessProcess.beforeMethod()'><b>beforeMethod</b><br>Test class: aria.testframework.businessprocess.GBusinessProcess<br/>
-<a href="#Output-20111564" onClick='toggleBox("Output-20111564", this, "Show output", "Hide output");'>Show output</a>
+<td title='aria.testframework.businessprocess.GBusinessProcess.exec()'><b>exec</b><br>Test class: aria.testframework.businessprocess.GBusinessProcess<br>Parameters: [Laria.testframework.util.Parameter;@45673f68<br/>
+<a href="#Output-1604342290" onClick='toggleBox("Output-1604342290", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-20111564" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-20111564">
-<br>INFO - File: C:\TSEL\TEST_SAMPLE\sqa-TEST_SAMPLE-selenium-webdriver-test\src\main\resources\doc\report_generic.xls exists, file length: 13312<br/>
-<br>INFO - ***Apertura Browser<br/>
-<br>INFO - Apertura driver browser: chrome<br/>
-<br>INFO - Desired Capabilities: chrome<br/>
-Completed executing following method : GBusinessProcess.beforeMethod<br/>
-</div>
-</td>
-<td><div><pre>org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 79
-Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
-System info: host: &apos;CNEGRONEW2&apos;, ip: &apos;10.240.103.158&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_181&apos;
-Driver info: driver.version: Driver
-remote stacktrace: Backtrace:
-	Ordinal0 [0x0025A113+1548563]
-	Ordinal0 [0x001DDDA1+1039777]
-	Ordinal0 [0x0015E485+517253]
-	Ordinal0 [0x000EFD34+64820]
-	Ordinal0 [0x000EC61E+50718]
-	Ordinal0 [0x0010B797+178071]
-	Ordinal0 [0x0010B59D+177565]
-	Ordinal0 [0x001095FB+169467]
-	Ordinal0 [0x000F160A+71178]
-	Ordinal0 [0x000F2690+75408]
-	Ordinal0 [0x000F2629+75305]
-	Ordinal0 [0x001F71B7+1143223]
-	GetHandleVerifier [0x002F2B46+507814]
-	GetHandleVerifier [0x002F2864+507076]
-	GetHandleVerifier [0x002F9F47+537511]
-	GetHandleVerifier [0x002F3402+510050]
-	Ordinal0 [0x001EF29C+1110684]
-	Ordinal0 [0x001F938B+1151883]
-	Ordinal0 [0x001F94F3+1152243]
-	Ordinal0 [0x001F83F5+1147893]
-	BaseThreadInitThunk [0x75FF343D+18]
-	RtlInitializeExceptionChain [0x77B09812+99]
-	RtlInitializeExceptionChain [0x77B097E5+54]
-
-	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
-	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
-	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$22(ProtocolHandshake.java:365)
-	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
-	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
-	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
-	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
-	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
-	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
-	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
-	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:368)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:159)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:250)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:236)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:137)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:184)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:148)
-	at aria.testframework.util.Driver.setDriver(Driver.java:104)
-	at aria.testframework.businessprocess.GBusinessProcess.aperturaBrowser(GBusinessProcess.java:260)
-	at aria.testframework.businessprocess.GBusinessProcess.beforeMethod(GBusinessProcess.java:106)
-... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace20111564", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace20111564'><pre>org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 79
-Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
-System info: host: &apos;CNEGRONEW2&apos;, ip: &apos;10.240.103.158&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_181&apos;
-Driver info: driver.version: Driver
-remote stacktrace: Backtrace:
-	Ordinal0 [0x0025A113+1548563]
-	Ordinal0 [0x001DDDA1+1039777]
-	Ordinal0 [0x0015E485+517253]
-	Ordinal0 [0x000EFD34+64820]
-	Ordinal0 [0x000EC61E+50718]
-	Ordinal0 [0x0010B797+178071]
-	Ordinal0 [0x0010B59D+177565]
-	Ordinal0 [0x001095FB+169467]
-	Ordinal0 [0x000F160A+71178]
-	Ordinal0 [0x000F2690+75408]
-	Ordinal0 [0x000F2629+75305]
-	Ordinal0 [0x001F71B7+1143223]
-	GetHandleVerifier [0x002F2B46+507814]
-	GetHandleVerifier [0x002F2864+507076]
-	GetHandleVerifier [0x002F9F47+537511]
-	GetHandleVerifier [0x002F3402+510050]
-	Ordinal0 [0x001EF29C+1110684]
-	Ordinal0 [0x001F938B+1151883]
-	Ordinal0 [0x001F94F3+1152243]
-	Ordinal0 [0x001F83F5+1147893]
-	BaseThreadInitThunk [0x75FF343D+18]
-	RtlInitializeExceptionChain [0x77B09812+99]
-	RtlInitializeExceptionChain [0x77B097E5+54]
-
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
-	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
-	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$22(ProtocolHandshake.java:365)
-	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
-	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
-	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
-	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
-	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
-	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
-	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
-	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:368)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:159)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:250)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:236)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:137)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:184)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:148)
-	at aria.testframework.util.Driver.setDriver(Driver.java:104)
-	at aria.testframework.businessprocess.GBusinessProcess.aperturaBrowser(GBusinessProcess.java:260)
-	at aria.testframework.businessprocess.GBusinessProcess.beforeMethod(GBusinessProcess.java:106)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:648)
-	at org.testng.TestRunner.run(TestRunner.java:505)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-	at org.testng.TestNG.runSuites(TestNG.java:1049)
-	at org.testng.TestNG.run(TestNG.java:1017)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>3</td>
-<td>aria.testframework.businessprocess.GBusinessProcess@6dde5c8c</td></tr>
-</table><p>
-<table width='100%' border='1' class='invocation-skipped'>
-<tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='aria.testframework.businessprocess.GBusinessProcess.beforeMethod()'><b>beforeMethod</b><br>Test class: aria.testframework.businessprocess.GBusinessProcess</td>
-<td></td>
-<td>0</td>
-<td>aria.testframework.businessprocess.GBusinessProcess@6dde5c8c</td></tr>
-<tr>
-<td title='aria.testframework.businessprocess.GBusinessProcess.beforeMethod()'><b>beforeMethod</b><br>Test class: aria.testframework.businessprocess.GBusinessProcess</td>
-<td></td>
-<td>0</td>
-<td>aria.testframework.businessprocess.GBusinessProcess@6dde5c8c</td></tr>
-<tr>
-<td title='aria.testframework.businessprocess.GBusinessProcess.afterMethod()'><b>afterMethod</b><br>Test class: aria.testframework.businessprocess.GBusinessProcess</td>
-<td></td>
-<td>0</td>
-<td>aria.testframework.businessprocess.GBusinessProcess@6dde5c8c</td></tr>
-<tr>
-<td title='aria.testframework.businessprocess.GBusinessProcess.afterMethod()'><b>afterMethod</b><br>Test class: aria.testframework.businessprocess.GBusinessProcess</td>
-<td></td>
-<td>0</td>
-<td>aria.testframework.businessprocess.GBusinessProcess@6dde5c8c</td></tr>
-<tr>
-<td title='aria.testframework.businessprocess.GBusinessProcess.afterMethod()'><b>afterMethod</b><br>Test class: aria.testframework.businessprocess.GBusinessProcess</td>
-<td></td>
-<td>0</td>
-<td>aria.testframework.businessprocess.GBusinessProcess@6dde5c8c</td></tr>
-<tr>
-<td title='aria.testframework.businessprocess.GBusinessProcess.afterTest()'><b>afterTest</b><br>Test class: aria.testframework.businessprocess.GBusinessProcess</td>
-<td></td>
-<td>0</td>
-<td>aria.testframework.businessprocess.GBusinessProcess@6dde5c8c</td></tr>
-</table><p>
-<table width='100%' border='1' class='invocation-skipped'>
-<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='aria.testframework.businessprocess.GBusinessProcess.exec()'><b>exec</b><br>Test class: aria.testframework.businessprocess.GBusinessProcess<br/>
-<a href="#Output-514453513" onClick='toggleBox("Output-514453513", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-514453513" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-514453513">
-Test Method resides in aria.testframework.businessprocess.GBusinessProcess<br/>
-Test Status: Skipped<br/>
+<a href="#Output-1604342290" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1604342290">
 About to begin executing following method : GBusinessProcess.exec<br/>
+<br>INFO - ***BP Name: BP01_RicercaGoogle<br/>
+<br>INFO - ***Parametri in input:<br/>
+<br>INFO - 	Iteration = 1<br/>
+<br>INFO - 	Note = Ricerca google parola Italia<br/>
+<br>INFO - 	IDPolarion = null<br/>
+<br>INFO - 	ricerca.cerca = Italia<br/>
+<br>INFO - 	ricerca.pulsante = Cerca con Google<br/>
+<br>INFO - 	esito.skip = null<br/>
+<br>INFO - 	esito.chiavericerca = Italia - Wikipedia<br/>
+<br>INFO - 	esito.testnegativo = null<br/>
+<br>INFO - 	c03.skip = TRUE<br/>
+<br>INFO - 	c03.sceltamenu = null<br/>
+<br>INFO - 	Apertura URL: https://www.google.it/<br/>
+<br>INFO - ***Execute ExecBP<br/>
+<br>INFO - BP01_RicercaGoogle<br/>
+<br>INFO - Avvio BP01_RicercaGoogle<br/>
+<br>INFO - Sono state lette: 3 righe<br/>
+<br>INFO - Component: test_sample.components.C01_RicercaGoogle<br/>
+<br>INFO - Alias: ricerca<br/>
+<br>INFO - avvio C01_RicercaGoogle<br/>
+<br>INFO - Func: temporizzatore = 1000<br/>
+<br>INFO - 	waiting...<br/>
+<br>INFO - Checkpoint: //input[@role='combobox'] trovato<br/>
+<br>INFO - C01_RicercaGoogle > Ricerca Google<br/>
+<br>INFO - safeInput: //input[@role='combobox']<br/>
+<br>INFO - attr: Italia<br/>
+<br>INFO - safeInput: //input[@role='combobox']<br/>
+<br>INFO - attr: Italia<br/>
+<br>INFO - Func: temporizzatore = 500<br/>
+<br>INFO - 	waiting...<br/>
+<br>INFO - Submit Element: //input[@role='combobox']<br/>
+<br>INFO - Func: elementExist //input[@role='combobox']<br/>
+<br>INFO - Component: test_sample.components.C02_EsitoRicerca<br/>
+<br>INFO - Alias: esito<br/>
+<br>INFO - avvio C02_EsitoRicerca<br/>
+<br>INFO - Func: temporizzatore = 1000<br/>
+<br>INFO - 	waiting...<br/>
+<br>INFO - Checkpoint: //div[@id='top_nav'] trovato<br/>
+<br>INFO - C02_EsitoRicerca > Esito Ricerca<br/>
+<br>INFO - Modalità di ricercaTuttiMapsImmaginiNotizieVideoAltroShoppingLibriVoliFinanzaImpostazioniImpostazioni di ricercaLingue (Languages)Attiva SafeSearchRicerca avanzataAttività di ricercaI tuoi dati nella RicercaCerca nella GuidaStrumentiQualsiasi PaeseQualsiasi PaesePaese: ItaliaQualsiasi linguaQualsiasi linguaPagine in italianoQualsiasi dataQualsiasi data Ultima ora Ultime 24 ore Ultima settimana Ultimo mese Ultimo annoIntervallo di dateIntervallo di date personalizzatoDaAVaiTutti i risultatiTutti i risultatiVerbatim<br/>
+<br>INFO - 24<br/>
+<br>INFO - safeInput: //h3[contains(.,'Italia - Wikipedia')]<br/>
+<br>INFO - jsClick: //h3[contains(.,'Italia - Wikipedia')]<br/>
+<br>INFO - executeJsActionOnElement: //h3[contains(.,'Italia - Wikipedia')] click()<br/>
+<br>INFO - addUnloadData, key: risultati, value: 24<br/>
+<br>INFO - Component: test_sample.components.C03_GestioneMenu<br/>
+<br>INFO - Alias: c03<br/>
+<br>INFO - Loaddata del componente: test_sample.components.C03_GestioneMenu con alias: c03 skippato<br/>
+<br>INFO - Componente: test_sample.components.C03_GestioneMenu con alias: c03 skippato<br/>
+<br>INFO - ***Fine Execute ExecBP<br/>
 Completed executing following method : GBusinessProcess.exec<br/>
-</div>
-</td>
-<td><div><pre>org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 79
-Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
-System info: host: &apos;CNEGRONEW2&apos;, ip: &apos;10.240.103.158&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_181&apos;
-Driver info: driver.version: Driver
-remote stacktrace: Backtrace:
-	Ordinal0 [0x0025A113+1548563]
-	Ordinal0 [0x001DDDA1+1039777]
-	Ordinal0 [0x0015E485+517253]
-	Ordinal0 [0x000EFD34+64820]
-	Ordinal0 [0x000EC61E+50718]
-	Ordinal0 [0x0010B797+178071]
-	Ordinal0 [0x0010B59D+177565]
-	Ordinal0 [0x001095FB+169467]
-	Ordinal0 [0x000F160A+71178]
-	Ordinal0 [0x000F2690+75408]
-	Ordinal0 [0x000F2629+75305]
-	Ordinal0 [0x001F71B7+1143223]
-	GetHandleVerifier [0x002F2B46+507814]
-	GetHandleVerifier [0x002F2864+507076]
-	GetHandleVerifier [0x002F9F47+537511]
-	GetHandleVerifier [0x002F3402+510050]
-	Ordinal0 [0x001EF29C+1110684]
-	Ordinal0 [0x001F938B+1151883]
-	Ordinal0 [0x001F94F3+1152243]
-	Ordinal0 [0x001F83F5+1147893]
-	BaseThreadInitThunk [0x75FF343D+18]
-	RtlInitializeExceptionChain [0x77B09812+99]
-	RtlInitializeExceptionChain [0x77B097E5+54]
-
-	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
-	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
-	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$22(ProtocolHandshake.java:365)
-	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
-	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
-	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
-	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
-	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
-	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
-	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
-	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:368)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:159)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:250)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:236)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:137)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:184)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:148)
-	at aria.testframework.util.Driver.setDriver(Driver.java:104)
-	at aria.testframework.businessprocess.GBusinessProcess.aperturaBrowser(GBusinessProcess.java:260)
-	at aria.testframework.businessprocess.GBusinessProcess.beforeMethod(GBusinessProcess.java:106)
-... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace514453513", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace514453513'><pre>org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 79
-Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
-System info: host: &apos;CNEGRONEW2&apos;, ip: &apos;10.240.103.158&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_181&apos;
-Driver info: driver.version: Driver
-remote stacktrace: Backtrace:
-	Ordinal0 [0x0025A113+1548563]
-	Ordinal0 [0x001DDDA1+1039777]
-	Ordinal0 [0x0015E485+517253]
-	Ordinal0 [0x000EFD34+64820]
-	Ordinal0 [0x000EC61E+50718]
-	Ordinal0 [0x0010B797+178071]
-	Ordinal0 [0x0010B59D+177565]
-	Ordinal0 [0x001095FB+169467]
-	Ordinal0 [0x000F160A+71178]
-	Ordinal0 [0x000F2690+75408]
-	Ordinal0 [0x000F2629+75305]
-	Ordinal0 [0x001F71B7+1143223]
-	GetHandleVerifier [0x002F2B46+507814]
-	GetHandleVerifier [0x002F2864+507076]
-	GetHandleVerifier [0x002F9F47+537511]
-	GetHandleVerifier [0x002F3402+510050]
-	Ordinal0 [0x001EF29C+1110684]
-	Ordinal0 [0x001F938B+1151883]
-	Ordinal0 [0x001F94F3+1152243]
-	Ordinal0 [0x001F83F5+1147893]
-	BaseThreadInitThunk [0x75FF343D+18]
-	RtlInitializeExceptionChain [0x77B09812+99]
-	RtlInitializeExceptionChain [0x77B097E5+54]
-
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
-	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
-	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$22(ProtocolHandshake.java:365)
-	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
-	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
-	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
-	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
-	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
-	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
-	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
-	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:368)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:159)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:250)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:236)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:137)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:184)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:148)
-	at aria.testframework.util.Driver.setDriver(Driver.java:104)
-	at aria.testframework.businessprocess.GBusinessProcess.aperturaBrowser(GBusinessProcess.java:260)
-	at aria.testframework.businessprocess.GBusinessProcess.beforeMethod(GBusinessProcess.java:106)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:648)
-	at org.testng.TestRunner.run(TestRunner.java:505)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-	at org.testng.TestNG.runSuites(TestNG.java:1049)
-	at org.testng.TestNG.run(TestNG.java:1017)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>0</td>
-<td>aria.testframework.businessprocess.GBusinessProcess@6dde5c8c</td></tr>
-<tr>
-<td title='aria.testframework.businessprocess.GBusinessProcess.exec()'><b>exec</b><br>Test class: aria.testframework.businessprocess.GBusinessProcess<br/>
-<a href="#Output-1430207342" onClick='toggleBox("Output-1430207342", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1430207342" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1430207342">
 Test Method resides in aria.testframework.businessprocess.GBusinessProcess<br/>
-Test Status: Skipped<br/>
-About to begin executing following method : GBusinessProcess.exec<br/>
-Completed executing following method : GBusinessProcess.exec<br/>
+Test Status: Pass<br/>
+About to begin executing following method : GBusinessProcess.afterMethod<br/>
 </div>
 </td>
-<td><div><pre>org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 79
-Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
-System info: host: &apos;CNEGRONEW2&apos;, ip: &apos;10.240.103.158&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_181&apos;
-Driver info: driver.version: Driver
-remote stacktrace: Backtrace:
-	Ordinal0 [0x0025A113+1548563]
-	Ordinal0 [0x001DDDA1+1039777]
-	Ordinal0 [0x0015E485+517253]
-	Ordinal0 [0x000EFD34+64820]
-	Ordinal0 [0x000EC61E+50718]
-	Ordinal0 [0x0010B797+178071]
-	Ordinal0 [0x0010B59D+177565]
-	Ordinal0 [0x001095FB+169467]
-	Ordinal0 [0x000F160A+71178]
-	Ordinal0 [0x000F2690+75408]
-	Ordinal0 [0x000F2629+75305]
-	Ordinal0 [0x001F71B7+1143223]
-	GetHandleVerifier [0x002F2B46+507814]
-	GetHandleVerifier [0x002F2864+507076]
-	GetHandleVerifier [0x002F9F47+537511]
-	GetHandleVerifier [0x002F3402+510050]
-	Ordinal0 [0x001EF29C+1110684]
-	Ordinal0 [0x001F938B+1151883]
-	Ordinal0 [0x001F94F3+1152243]
-	Ordinal0 [0x001F83F5+1147893]
-	BaseThreadInitThunk [0x75FF343D+18]
-	RtlInitializeExceptionChain [0x77B09812+99]
-	RtlInitializeExceptionChain [0x77B097E5+54]
-
-	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
-	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
-	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$22(ProtocolHandshake.java:365)
-	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
-	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
-	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
-	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
-	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
-	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
-	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
-	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:368)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:159)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:250)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:236)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:137)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:184)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:148)
-	at aria.testframework.util.Driver.setDriver(Driver.java:104)
-	at aria.testframework.businessprocess.GBusinessProcess.aperturaBrowser(GBusinessProcess.java:260)
-	at aria.testframework.businessprocess.GBusinessProcess.beforeMethod(GBusinessProcess.java:106)
-... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1430207342", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1430207342'><pre>org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 79
-Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
-System info: host: &apos;CNEGRONEW2&apos;, ip: &apos;10.240.103.158&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_181&apos;
-Driver info: driver.version: Driver
-remote stacktrace: Backtrace:
-	Ordinal0 [0x0025A113+1548563]
-	Ordinal0 [0x001DDDA1+1039777]
-	Ordinal0 [0x0015E485+517253]
-	Ordinal0 [0x000EFD34+64820]
-	Ordinal0 [0x000EC61E+50718]
-	Ordinal0 [0x0010B797+178071]
-	Ordinal0 [0x0010B59D+177565]
-	Ordinal0 [0x001095FB+169467]
-	Ordinal0 [0x000F160A+71178]
-	Ordinal0 [0x000F2690+75408]
-	Ordinal0 [0x000F2629+75305]
-	Ordinal0 [0x001F71B7+1143223]
-	GetHandleVerifier [0x002F2B46+507814]
-	GetHandleVerifier [0x002F2864+507076]
-	GetHandleVerifier [0x002F9F47+537511]
-	GetHandleVerifier [0x002F3402+510050]
-	Ordinal0 [0x001EF29C+1110684]
-	Ordinal0 [0x001F938B+1151883]
-	Ordinal0 [0x001F94F3+1152243]
-	Ordinal0 [0x001F83F5+1147893]
-	BaseThreadInitThunk [0x75FF343D+18]
-	RtlInitializeExceptionChain [0x77B09812+99]
-	RtlInitializeExceptionChain [0x77B097E5+54]
-
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
-	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
-	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$22(ProtocolHandshake.java:365)
-	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
-	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
-	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
-	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
-	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
-	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
-	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
-	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:368)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:159)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:250)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:236)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:137)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:184)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:148)
-	at aria.testframework.util.Driver.setDriver(Driver.java:104)
-	at aria.testframework.businessprocess.GBusinessProcess.aperturaBrowser(GBusinessProcess.java:260)
-	at aria.testframework.businessprocess.GBusinessProcess.beforeMethod(GBusinessProcess.java:106)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:648)
-	at org.testng.TestRunner.run(TestRunner.java:505)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-	at org.testng.TestNG.runSuites(TestNG.java:1049)
-	at org.testng.TestNG.run(TestNG.java:1017)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>0</td>
-<td>aria.testframework.businessprocess.GBusinessProcess@6dde5c8c</td></tr>
+<td></td>
+<td>11</td>
+<td>aria.testframework.businessprocess.GBusinessProcess@77846d2c</td></tr>
 <tr>
-<td title='aria.testframework.businessprocess.GBusinessProcess.exec()'><b>exec</b><br>Test class: aria.testframework.businessprocess.GBusinessProcess<br/>
-<a href="#Output-1522119751" onClick='toggleBox("Output-1522119751", this, "Show output", "Hide output");'>Show output</a>
+<td title='aria.testframework.businessprocess.GBusinessProcess.exec()'><b>exec</b><br>Test class: aria.testframework.businessprocess.GBusinessProcess<br>Parameters: [Laria.testframework.util.Parameter;@27abb83e<br/>
+<a href="#Output-1232433403" onClick='toggleBox("Output-1232433403", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1522119751" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1522119751">
-Test Method resides in aria.testframework.businessprocess.GBusinessProcess<br/>
-Test Status: Skipped<br/>
+<a href="#Output-1232433403" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1232433403">
 About to begin executing following method : GBusinessProcess.exec<br/>
+<br>INFO - ***BP Name: BP01_RicercaGoogle<br/>
+<br>INFO - ***Parametri in input:<br/>
+<br>INFO - 	Iteration = 2<br/>
+<br>INFO - 	Note = Ricerca goggle - test negativo<br/>
+<br>INFO - 	IDPolarion = null<br/>
+<br>INFO - 	ricerca.cerca = ccccccccccdccccccccccg0000fsfsdwrèewej<br/>
+<br>INFO - 	ricerca.pulsante = Cerca con Google<br/>
+<br>INFO - 	esito.skip = null<br/>
+<br>INFO - 	esito.chiavericerca = null<br/>
+<br>INFO - 	esito.testnegativo = si<br/>
+<br>INFO - 	c03.skip = TRUE<br/>
+<br>INFO - 	c03.sceltamenu = si<br/>
+<br>INFO - 	Apertura URL: https://www.google.it/<br/>
+<br>INFO - ***Execute ExecBP<br/>
+<br>INFO - BP01_RicercaGoogle<br/>
+<br>INFO - Avvio BP01_RicercaGoogle<br/>
+<br>INFO - Sono state lette: 3 righe<br/>
+<br>INFO - Component: test_sample.components.C01_RicercaGoogle<br/>
+<br>INFO - Alias: ricerca<br/>
+<br>INFO - avvio C01_RicercaGoogle<br/>
+<br>INFO - Func: temporizzatore = 1000<br/>
+<br>INFO - 	waiting...<br/>
+<br>INFO - Checkpoint: //input[@role='combobox'] trovato<br/>
+<br>INFO - C01_RicercaGoogle > Ricerca Google<br/>
+<br>INFO - safeInput: //input[@role='combobox']<br/>
+<br>INFO - attr: ccccccccccdccccccccccg0000fsfsdwrèewej<br/>
+<br>INFO - safeInput: //input[@role='combobox']<br/>
+<br>INFO - attr: ccccccccccdccccccccccg0000fsfsdwrèewej<br/>
+<br>INFO - Func: temporizzatore = 500<br/>
+<br>INFO - 	waiting...<br/>
+<br>INFO - Submit Element: //input[@role='combobox']<br/>
+<br>INFO - Func: elementExist //input[@role='combobox']<br/>
+<br>INFO - Component: test_sample.components.C02_EsitoRicerca<br/>
+<br>INFO - Alias: esito<br/>
+<br>INFO - avvio C02_EsitoRicerca<br/>
+<br>INFO - Func: temporizzatore = 1000<br/>
+<br>INFO - 	waiting...<br/>
+<br>INFO - Checkpoint: //div[@id='top_nav'] trovato<br/>
+<br>INFO - C02_EsitoRicerca > Esito Ricerca<br/>
+<br>INFO - Func: temporizzatore = 1000<br/>
+<br>INFO - 	waiting...<br/>
+<br>INFO - Checkpoint: //p[contains(.,'non ha prodotto risultati')] trovato<br/>
+<br>INFO - 0<br/>
+<br>INFO - addUnloadData, key: risultati, value: 0<br/>
+<br>INFO - Component: test_sample.components.C03_GestioneMenu<br/>
+<br>INFO - Alias: c03<br/>
+<br>INFO - Loaddata del componente: test_sample.components.C03_GestioneMenu con alias: c03 skippato<br/>
+<br>INFO - Componente: test_sample.components.C03_GestioneMenu con alias: c03 skippato<br/>
+<br>INFO - ***Fine Execute ExecBP<br/>
 Completed executing following method : GBusinessProcess.exec<br/>
+Test Method resides in aria.testframework.businessprocess.GBusinessProcess<br/>
+Test Status: Pass<br/>
+About to begin executing following method : GBusinessProcess.afterMethod<br/>
 </div>
 </td>
-<td><div><pre>org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 79
-Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
-System info: host: &apos;CNEGRONEW2&apos;, ip: &apos;10.240.103.158&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_181&apos;
-Driver info: driver.version: Driver
-remote stacktrace: Backtrace:
-	Ordinal0 [0x0025A113+1548563]
-	Ordinal0 [0x001DDDA1+1039777]
-	Ordinal0 [0x0015E485+517253]
-	Ordinal0 [0x000EFD34+64820]
-	Ordinal0 [0x000EC61E+50718]
-	Ordinal0 [0x0010B797+178071]
-	Ordinal0 [0x0010B59D+177565]
-	Ordinal0 [0x001095FB+169467]
-	Ordinal0 [0x000F160A+71178]
-	Ordinal0 [0x000F2690+75408]
-	Ordinal0 [0x000F2629+75305]
-	Ordinal0 [0x001F71B7+1143223]
-	GetHandleVerifier [0x002F2B46+507814]
-	GetHandleVerifier [0x002F2864+507076]
-	GetHandleVerifier [0x002F9F47+537511]
-	GetHandleVerifier [0x002F3402+510050]
-	Ordinal0 [0x001EF29C+1110684]
-	Ordinal0 [0x001F938B+1151883]
-	Ordinal0 [0x001F94F3+1152243]
-	Ordinal0 [0x001F83F5+1147893]
-	BaseThreadInitThunk [0x75FF343D+18]
-	RtlInitializeExceptionChain [0x77B09812+99]
-	RtlInitializeExceptionChain [0x77B097E5+54]
+<td></td>
+<td>6</td>
+<td>aria.testframework.businessprocess.GBusinessProcess@77846d2c</td></tr>
+<tr>
+<td title='aria.testframework.businessprocess.GBusinessProcess.exec()'><b>exec</b><br>Test class: aria.testframework.businessprocess.GBusinessProcess<br>Parameters: [Laria.testframework.util.Parameter;@69e308c6<br/>
+<a href="#Output-742568993" onClick='toggleBox("Output-742568993", this, "Show output", "Hide output");'>Show output</a>
 
-	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
-	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
-	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$22(ProtocolHandshake.java:365)
-	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
-	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
-	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
-	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
-	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
-	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
-	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
-	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:368)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:159)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:250)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:236)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:137)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:184)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:148)
-	at aria.testframework.util.Driver.setDriver(Driver.java:104)
-	at aria.testframework.businessprocess.GBusinessProcess.aperturaBrowser(GBusinessProcess.java:260)
-	at aria.testframework.businessprocess.GBusinessProcess.beforeMethod(GBusinessProcess.java:106)
-... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1522119751", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1522119751'><pre>org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 79
-Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
-System info: host: &apos;CNEGRONEW2&apos;, ip: &apos;10.240.103.158&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_181&apos;
-Driver info: driver.version: Driver
-remote stacktrace: Backtrace:
-	Ordinal0 [0x0025A113+1548563]
-	Ordinal0 [0x001DDDA1+1039777]
-	Ordinal0 [0x0015E485+517253]
-	Ordinal0 [0x000EFD34+64820]
-	Ordinal0 [0x000EC61E+50718]
-	Ordinal0 [0x0010B797+178071]
-	Ordinal0 [0x0010B59D+177565]
-	Ordinal0 [0x001095FB+169467]
-	Ordinal0 [0x000F160A+71178]
-	Ordinal0 [0x000F2690+75408]
-	Ordinal0 [0x000F2629+75305]
-	Ordinal0 [0x001F71B7+1143223]
-	GetHandleVerifier [0x002F2B46+507814]
-	GetHandleVerifier [0x002F2864+507076]
-	GetHandleVerifier [0x002F9F47+537511]
-	GetHandleVerifier [0x002F3402+510050]
-	Ordinal0 [0x001EF29C+1110684]
-	Ordinal0 [0x001F938B+1151883]
-	Ordinal0 [0x001F94F3+1152243]
-	Ordinal0 [0x001F83F5+1147893]
-	BaseThreadInitThunk [0x75FF343D+18]
-	RtlInitializeExceptionChain [0x77B09812+99]
-	RtlInitializeExceptionChain [0x77B097E5+54]
-
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
-	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
-	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$22(ProtocolHandshake.java:365)
-	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
-	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
-	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
-	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
-	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
-	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
-	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
-	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:368)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:159)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:250)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:236)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:137)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:184)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:148)
-	at aria.testframework.util.Driver.setDriver(Driver.java:104)
-	at aria.testframework.businessprocess.GBusinessProcess.aperturaBrowser(GBusinessProcess.java:260)
-	at aria.testframework.businessprocess.GBusinessProcess.beforeMethod(GBusinessProcess.java:106)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:648)
-	at org.testng.TestRunner.run(TestRunner.java:505)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-	at org.testng.TestNG.runSuites(TestNG.java:1049)
-	at org.testng.TestNG.run(TestNG.java:1017)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>0</td>
-<td>aria.testframework.businessprocess.GBusinessProcess@6dde5c8c</td></tr>
+<a href="#Output-742568993" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-742568993">
+About to begin executing following method : GBusinessProcess.exec<br/>
+<br>INFO - ***BP Name: BP01_RicercaGoogle<br/>
+<br>INFO - ***Parametri in input:<br/>
+<br>INFO - 	Iteration = 3<br/>
+<br>INFO - 	Note = Ricerca il numero uscito come risultato alla iter 1<br/>
+<br>INFO - 	IDPolarion = null<br/>
+<br>INFO - 	ricerca.cerca = [ITERATION]BP01_RicercaGoogle#1#esito.risultati<br/>
+<br>INFO - 	ricerca.pulsante = Cerca con Google<br/>
+<br>INFO - 	esito.skip = si<br/>
+<br>INFO - 	esito.chiavericerca = null<br/>
+<br>INFO - 	esito.testnegativo = null<br/>
+<br>INFO - 	c03.skip = TRUE<br/>
+<br>INFO - 	c03.sceltamenu = null<br/>
+<br>INFO - 	Apertura URL: https://www.google.it/<br/>
+<br>INFO - ***Execute ExecBP<br/>
+<br>INFO - BP01_RicercaGoogle<br/>
+<br>INFO - Avvio BP01_RicercaGoogle<br/>
+<br>INFO - Sono state lette: 3 righe<br/>
+<br>INFO - Component: test_sample.components.C01_RicercaGoogle<br/>
+<br>INFO - Alias: ricerca<br/>
+<br>INFO - TransferParameter: [ITERATION]BP01_RicercaGoogle#1#esito.risultati<br/>
+<br>INFO - Value: 24<br/>
+<br>INFO - avvio C01_RicercaGoogle<br/>
+<br>INFO - Func: temporizzatore = 1000<br/>
+<br>INFO - 	waiting...<br/>
+<br>INFO - Checkpoint: //input[@role='combobox'] trovato<br/>
+<br>INFO - C01_RicercaGoogle > Ricerca Google<br/>
+<br>INFO - safeInput: //input[@role='combobox']<br/>
+<br>INFO - attr: 24<br/>
+<br>INFO - safeInput: //input[@role='combobox']<br/>
+<br>INFO - attr: 24<br/>
+<br>INFO - Func: temporizzatore = 500<br/>
+<br>INFO - 	waiting...<br/>
+<br>INFO - Submit Element: //input[@role='combobox']<br/>
+<br>INFO - Func: elementExist //input[@role='combobox']<br/>
+<br>INFO - Component: test_sample.components.C02_EsitoRicerca<br/>
+<br>INFO - Alias: esito<br/>
+<br>INFO - Loaddata del componente: test_sample.components.C02_EsitoRicerca con alias: esito skippato<br/>
+<br>INFO - Componente: test_sample.components.C02_EsitoRicerca con alias: esito skippato<br/>
+<br>INFO - Component: test_sample.components.C03_GestioneMenu<br/>
+<br>INFO - Alias: c03<br/>
+<br>INFO - Loaddata del componente: test_sample.components.C03_GestioneMenu con alias: c03 skippato<br/>
+<br>INFO - Componente: test_sample.components.C03_GestioneMenu con alias: c03 skippato<br/>
+<br>INFO - ***Fine Execute ExecBP<br/>
+Completed executing following method : GBusinessProcess.exec<br/>
+Test Method resides in aria.testframework.businessprocess.GBusinessProcess<br/>
+Test Status: Pass<br/>
+About to begin executing following method : GBusinessProcess.afterMethod<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>aria.testframework.businessprocess.GBusinessProcess@77846d2c</td></tr>
 </table><p>
 </body>
 </html>

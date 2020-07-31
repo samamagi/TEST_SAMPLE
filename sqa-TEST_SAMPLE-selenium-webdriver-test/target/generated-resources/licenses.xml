@@ -43,7 +43,6 @@
           <name>Apache License, Version 2.0</name>
           <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
           <distribution>repo</distribution>
-          <file>apache license, version 2.0 - license-2.0.txt</file>
         </license>
       </licenses>
     </dependency>
@@ -56,7 +55,6 @@
           <name>Apache License, Version 2.0</name>
           <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
           <distribution>repo</distribution>
-          <file>apache license, version 2.0 - license-2.0.txt</file>
         </license>
       </licenses>
     </dependency>
@@ -69,7 +67,6 @@
           <name>Apache License, Version 2.0</name>
           <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
           <distribution>repo</distribution>
-          <file>apache license, version 2.0 - license-2.0.txt</file>
         </license>
       </licenses>
     </dependency>
@@ -82,7 +79,6 @@
           <name>Apache License, Version 2.0</name>
           <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
           <distribution>repo</distribution>
-          <file>apache license, version 2.0 - license-2.0.txt</file>
         </license>
       </licenses>
     </dependency>
@@ -95,7 +91,6 @@
           <name>Apache License, Version 2.0</name>
           <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
           <distribution>repo</distribution>
-          <file>apache license, version 2.0 - license-2.0.txt</file>
         </license>
       </licenses>
     </dependency>
@@ -107,7 +102,6 @@
         <license>
           <name>The Apache Software License, Version 2.0</name>
           <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
-          <file>apache license, version 2.0 - license-2.0.txt</file>
         </license>
       </licenses>
     </dependency>
@@ -119,7 +113,6 @@
         <license>
           <name>The Apache Software License, Version 2.0</name>
           <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
-          <file>apache license, version 2.0 - license-2.0.txt</file>
         </license>
       </licenses>
     </dependency>
@@ -132,7 +125,6 @@
           <name>GNU Library General Public License v2.1 or later</name>
           <url>http://www.opensource.org/licenses/LGPL-2.1</url>
           <distribution>repo</distribution>
-          <file>gnu library general public license v2.1 or later - lgpl-2.1.html</file>
           <comments>See discussion at http://hibernate.org/community/license/ for more details.</comments>
         </license>
       </licenses>
@@ -146,7 +138,6 @@
           <name>GNU Library General Public License v2.1 or later</name>
           <url>http://www.opensource.org/licenses/LGPL-2.1</url>
           <distribution>repo</distribution>
-          <file>gnu library general public license v2.1 or later - lgpl-2.1.html</file>
           <comments>See discussion at http://hibernate.org/community/license/ for more details.</comments>
         </license>
       </licenses>
@@ -168,7 +159,6 @@
           <name>The Apache Software License, Version 2.0</name>
           <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
           <distribution>repo</distribution>
-          <file>apache license, version 2.0 - license-2.0.txt</file>
         </license>
       </licenses>
     </dependency>
@@ -180,7 +170,6 @@
         <license>
           <name>Apache License, Version 2.0</name>
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
-          <file>apache license, version 2.0 - license-2.0.txt</file>
           <comments>Copyright 2008-2017 the original author or authors.
 
 			Licensed under the Apache License, Version 2.0 (the "License");
